@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Uni Schedule → ICS (auto-detect)",
+  "version": "1.0.0",
+  "description": "Exports the visible 'מפגשים לפי תאריך' table to .ics with a floating button.",
+  "icons": {
+    "16": "icons/calendar16.png",
+    "48": "icons/calendar48.png",
+    "128": "icons/calendar128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/StudentScheduleList.aspx*",
+        "*://*/studentScheduleList.aspx*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}

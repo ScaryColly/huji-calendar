@@ -1,0 +1,16 @@
+{
+  "name": "uni-ics-extension",
+  "version": "1.0.0",
+  "main": "auto.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "playwright": "^1.55.0"
+  },
+  "type": "module"
+}
